@@ -9,10 +9,20 @@ let timelineElements = [
     },
     {
         id: 2,
-        title: "DPS - Modern Indian School",
+        title: "Delhi Public School Modern Indian School",
         location: "Doha, Qatar",
-        description: "High School",
-        date: "2018 - 2020",
+        description: "12th Grade, CBSE",
+        date: "2019 - 2020",
+        icon: "school"
+    },
+    {
+        id: 3,
+        title: "Delhi Public School Modern Indian School",
+        location: "Doha, Qatar",
+        description: "10th Grade, CBSE",
+        date: "2017 - 2018",
         icon: "school"
     }
-]
+];
+
+export default timelineElements;
