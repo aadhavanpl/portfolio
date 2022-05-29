@@ -1,15 +1,19 @@
 .projects__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 2.5rem;
+    color: black;
 }
 
 .projects__item {
-    background: red;
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    
+}
+
+.projects__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
 }
 
 .projects__img img {
@@ -26,4 +30,15 @@
 
 .projects__item h3 {
     margin: 1.2rem 0 2rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3rem;
 }

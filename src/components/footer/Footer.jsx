@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
 
       <div className='footer__copyright'>
-        <small>Inspired by Egator Tutorials</small>
+        <small>Inspired by Egator</small>
       </div>
     </footer>
   )

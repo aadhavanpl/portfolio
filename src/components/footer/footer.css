@@ -1,5 +1,5 @@
 footer {
-    background: white;
+    background: var(--color-light);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-    color: black;
+    color: var(--color-bg);
 }
 
 .footer__logo {
@@ -29,11 +29,11 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .footer__socials a {
-    background: black;
+    background: var(--color-primary-variant);
     color: white;
     padding: 0.8rem;
     border-radius: 0.7rem;
@@ -54,4 +54,8 @@ footer a {
     .footer__socials {
         margin-bottom: 2.6rem;
     }
+}
+
+small {
+    color: var(--color-bg);
 }
