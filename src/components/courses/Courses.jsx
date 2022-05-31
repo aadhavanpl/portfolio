@@ -2,6 +2,7 @@ import React from 'react'
 import "./courses.css"
 import { FcGoogle } from "react-icons/fc"
 import { SiCoursera } from "react-icons/si"
+import { FaUniversity } from "react-icons/fa"
 
 const Courses = () => {
   return (
@@ -18,7 +19,7 @@ const Courses = () => {
               <small>May 2022</small>
             </article>
             <article className='courses__card'>
-              <SiCoursera className='courses__icon'/>
+              <FaUniversity className='courses__icon'/>
               <h5>Object Oriented Data Structures in C++</h5>
               <small>University of Illinois | Coursera</small>
               <br />

@@ -36,3 +36,7 @@
         float: none;
     }
 }
+
+.vertical-timeline-custom-line::before {
+    background: red;
+}
