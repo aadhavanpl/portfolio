@@ -40,3 +40,8 @@
 .vertical-timeline-custom-line::before {
     background: red;
 }
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}

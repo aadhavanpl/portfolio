@@ -3,6 +3,7 @@ import "./courses.css"
 import { FcGoogle } from "react-icons/fc"
 import { SiCoursera } from "react-icons/si"
 import { FaUniversity } from "react-icons/fa"
+import { SiAmazonaws } from "react-icons/si"
 
 const Courses = () => {
   return (
@@ -45,6 +46,20 @@ const Courses = () => {
               <small>Coursera</small>
               <br />
               <small>Dec 2021</small>
+            </article>
+            <article className='courses__card'>
+              <FaUniversity className='courses__icon'/>
+              <h5>SQL for Data Science</h5>
+              <small>University of California, Davis | Coursera</small>
+              <br />
+              <small>May 2022</small>
+            </article>
+            <article className='courses__card'>
+              <SiAmazonaws className='courses__icon'/>
+              <h5>AWS Cloud Practitioner Essentials</h5>
+              <small>Amazon</small>
+              <br />
+              <small>May 2022</small>
             </article>
           </div>
         </div>
