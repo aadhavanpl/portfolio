@@ -19,7 +19,7 @@ function About() {
             <img src={ME} />
           </div>
           <div className='about__card'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa saepe officia enim, cupiditate harum odio hic ullam suscipit ipsa eum distinctio non odit quae a assumenda maiores doloribus libero!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo excepturi nulla, ducimus pariatur enim molestias in debitis culpa dolor impedit minima commodi perspiciatis laboriosam unde! Optio maxime id itaque. Esse!</p>
+            <p>I am a third year student persuing a bachelor's degree in Computer Science and Engineering at NIT, Calicut. </p>
           </div>
         </div>
         <VerticalTimeline>
